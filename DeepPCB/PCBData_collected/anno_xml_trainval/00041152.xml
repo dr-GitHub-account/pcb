@@ -1,0 +1,166 @@
+<annotation>
+    <folder>VOC2007</folder>
+    <!--文件名-->
+    <filename>00041152.jpg</filename>.
+    <source>
+        <database>The VOC2007 Database</database>
+        <annotation>PASCAL VOC2007</annotation>
+        <image>flickr</image>
+        <flickrid>325991873</flickrid>
+    </source>
+    <owner>
+        <flickrid>null</flickrid>
+        <name>null</name>
+    </owner>    
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    
+    <object>        
+        <name>open</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>201</xmin>
+            <ymin>206</ymin>
+            <xmax>252</xmax>
+            <ymax>265</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>open</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>310</xmin>
+            <ymin>146</ymin>
+            <xmax>345</xmax>
+            <ymax>187</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>307</xmin>
+            <ymin>225</ymin>
+            <xmax>341</xmax>
+            <ymax>260</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>copper</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>419</xmin>
+            <ymin>357</ymin>
+            <xmax>450</xmax>
+            <ymax>398</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>pin-hole</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>284</xmin>
+            <ymin>347</ymin>
+            <xmax>322</xmax>
+            <ymax>384</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>spur</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>538</xmin>
+            <ymin>297</ymin>
+            <xmax>576</xmax>
+            <ymax>325</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>197</xmin>
+            <ymin>351</ymin>
+            <xmax>232</xmax>
+            <ymax>379</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>587</xmin>
+            <ymin>253</ymin>
+            <xmax>625</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>228</xmin>
+            <ymin>441</ymin>
+            <xmax>261</xmax>
+            <ymax>466</ymax>
+        </bndbox>
+    </object>
+    
+</annotation>

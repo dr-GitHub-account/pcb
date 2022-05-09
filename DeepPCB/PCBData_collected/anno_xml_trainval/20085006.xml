@@ -1,0 +1,150 @@
+<annotation>
+    <folder>VOC2007</folder>
+    <!--文件名-->
+    <filename>20085006.jpg</filename>.
+    <source>
+        <database>The VOC2007 Database</database>
+        <annotation>PASCAL VOC2007</annotation>
+        <image>flickr</image>
+        <flickrid>325991873</flickrid>
+    </source>
+    <owner>
+        <flickrid>null</flickrid>
+        <name>null</name>
+    </owner>    
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    
+    <object>        
+        <name>short</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>263</xmin>
+            <ymin>77</ymin>
+            <xmax>334</xmax>
+            <ymax>107</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>363</xmin>
+            <ymin>279</ymin>
+            <xmax>387</xmax>
+            <ymax>301</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>122</xmin>
+            <ymin>392</ymin>
+            <xmax>146</xmax>
+            <ymax>414</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>mousebite</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>122</xmin>
+            <ymin>264</ymin>
+            <xmax>153</xmax>
+            <ymax>288</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>spur</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>411</xmin>
+            <ymin>178</ymin>
+            <xmax>439</xmax>
+            <ymax>205</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>copper</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>32</xmin>
+            <ymin>505</ymin>
+            <xmax>61</xmax>
+            <ymax>528</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>pin-hole</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>427</xmin>
+            <ymin>84</ymin>
+            <xmax>448</xmax>
+            <ymax>107</ymax>
+        </bndbox>
+    </object>
+    
+    <object>        
+        <name>pin-hole</name>
+        <pose>Rear</pose>
+        <!--是否被裁减，0表示完整，1表示不完整-->
+        <truncated>0</truncated>
+        <!--是否容易识别，0表示容易，1表示困难-->
+        <difficult>0</difficult>
+        <!--bounding box的四个坐标-->
+        <bndbox>
+            <xmin>379</xmin>
+            <ymin>484</ymin>
+            <xmax>416</xmax>
+            <ymax>521</ymax>
+        </bndbox>
+    </object>
+    
+</annotation>
