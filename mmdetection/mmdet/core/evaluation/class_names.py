@@ -1,6 +1,10 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import mmcv
 
+def pcb_classes():
+    return [
+        'open', 'short', 'mousebite', 'spur', 'copper', 'pin-hole'
+    ]
 
 def wider_face_classes():
     return ['face']
@@ -311,7 +315,8 @@ dataset_aliases = {
     'wider_face': ['WIDERFaceDataset', 'wider_face', 'WIDERFace'],
     'cityscapes': ['cityscapes'],
     'oid_challenge': ['oid_challenge', 'openimages_challenge'],
-    'oid_v6': ['oid_v6', 'openimages_v6']
+    'oid_v6': ['oid_v6', 'openimages_v6'],
+    'pcb': ['pcb']
 }
 
 

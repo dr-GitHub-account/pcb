@@ -19,7 +19,7 @@ for iind, cat in enumerate(voc_clses):
     cate = {}
     cate['supercategory'] = cat
     cate['name'] = cat
-    cate['id'] = iind
+    cate['id'] = iind + 1
     categories.append(cate)
 
 def getimages(xmlname, id):
@@ -39,10 +39,10 @@ def getimages(xmlname, id):
             for j in i:
                 if j.tag == 'width':
                     width = j.text
-                    images['width'] = width
+                    images['width'] = int(width)
                 if j.tag == 'height':
                     height = j.text
-                    images['height'] = height
+                    images['height'] = int(height)
         if i.tag == 'object':
             # 遍历一级节点'object'的所有二级节点
             for j in i:
